@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn http-server --cors -p 8081 assets/",
+    "assets": "yarn http-server --cors -p 8081 assets/",
     "dev": "yarn http-server --cors -p 8080 public/"
   },
   "devDependencies": {
